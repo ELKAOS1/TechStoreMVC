@@ -6,4 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Atividade_04\**\*.cs" />
+    <Content Remove="Atividade_04\**\*" />
+    <EmbeddedResource Remove="Atividade_04\**\*" />
+    <None Remove="Atividade_04\**\*" />
+  </ItemGroup>
+
 </Project>
